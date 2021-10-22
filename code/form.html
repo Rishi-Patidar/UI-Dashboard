@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Material Kit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="./formStylesheet.css">
+</head>
+<body class="container">
+
+    <header class="header">
+        <div class="headerLogo">
+            <img class="headLogo" src="../images/logo.svg" alt="LOGO">
+        </div>
+        <div class="headerOptions">
+            <button>
+                <i class="far fa-bell notificationIcon"></i>
+            </button>
+            <button>
+                <i class="fas fa-sign-out-alt signoutIcon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="content">
+
+        <div class="navigation">
+            <div class="profile">
+                <img class="profileImg" src="../images/profile.png" alt="ProfileImg">
+                <h4 class="navFont" style="color: black;">Katarina Smith</h4>
+                <p class="navFont">Senior Developer</p>
+            </div>
+    
+            <div class="categories">
+                <a href="./index.html">
+                
+                    <div class="items">
+                        <i class="fas fa-signal fontGrey"></i>
+                        <h3 class="navFont navh3 fontGrey">Dashboard</h3>
+                    </div>
+                
+                </a>
+    
+                <div class="items">
+                    <i class="fas fa-user-friends fontGrey"></i>
+                    <h3 class="navFont navh3">Customers</h3>
+                </div>
+    
+                <div class="items">
+                    <i class="fas fa-shopping-bag fontGrey"></i>
+                    <h3 class="navFont navh3">Products</h3>
+                </div>
+    
+                <a href="./form.html">
+                    
+                    <div class="items">
+                        <i class="fas fa-user colorBlue"></i>
+                        <h3 class="navFont navh3 colorBlue">Account</h3>
+                    </div>
+
+                </a>
+    
+                <div class="items">
+                    <i class="fas fa-cog fontGrey"></i>
+                    <h3 class="navFont navh3">Settings</h3>
+                </div>
+    
+                <div class="items">
+                    <i class="fas fa-lock fontGrey"></i>
+                    <h3 class="navFont navh3">Login</h3>
+                </div>
+    
+                <div class="items">
+                    <i class="fas fa-user-plus fontGrey"></i>
+                    <h3 class="navFont navh3">Register</h3>
+                </div>
+    
+                <div class="items">
+                    <i class="fas fa-exclamation-circle fontGrey"></i>
+                    <h3 class="navFont navh3">Error</h3>
+                </div>
+            </div>
+    
+            <div class="needMore navFont">
+                <h3>Need More?</h3>
+                <p>Upgrade to PRO version and access 20 more screens</p>
+                <button><b>SEE PRO VERSION</b></button>
+            </div>
+    
+        </div>
+
+        <div class="accountDetails">
+
+            <div class="leftProfile">
+
+                <img class="profileImg" src="../images/profile.png" alt="ProfileImg">
+                <h2>Katarina Smith</h2>
+                <p>Los Angeles USA</p>
+                <p>09:09 PM GTM-7</p>
+                <button class="uploadPic">UPLOAD PICTURE</button>
+
+            </div>
+
+            <div class="rightProfile">
+
+                <div class="formTop">
+
+                    <h3>Profile</h3>
+                    <p>The information can be edited</p>
+
+                </div>
+
+                <div class="formMiddle">
+
+                    <input type="text" name="firstName" id="firstname" placeholder="First name *">
+                    <input type="text" name="lastName" id="lastname" placeholder="Last name *">
+                    <input type="email" name="email" id="email" placeholder="Email *">
+                    <input type="text" name="phoneNumber" id="phone" placeholder="Phone Number *">
+                    <input type="text" name="country" id="country" placeholder="Country *">
+                    <select name="state" id="state" aria-placeholder="Select State *">
+                        <option value="Alabama">Alabama</option>
+                        <option value="New York">New York</option>
+                        <option value="San Francisco">San Francisco</option>
+                    </select>
+
+                </div>
+
+                <div class="formBottom">
+
+                    <button type="submit">SAVE DETAILS</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+</body>
+</html>
